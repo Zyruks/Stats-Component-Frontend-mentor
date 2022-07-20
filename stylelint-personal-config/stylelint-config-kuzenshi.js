@@ -204,7 +204,7 @@ module.exports = {
     //? General / Sheet
     "max-nesting-depth": [2, { ignore: ["blockless-at-rules"] }], //Limit the depth of nesting.
     "no-irregular-whitespace": true, //Disallow irregular whitespace.
-    "no-unknown-animations": true, //Disallow unknown animations.
+    "no-unknown-animations": null, //Disallow unknown animations.
     // "unicode-bom": "always", //Require or disallow Unicode BOM.  //! Need to check what is unicode-bom
 
     /*------------------------------------*\
