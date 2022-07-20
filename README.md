@@ -11,7 +11,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -30,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Zyruks/Stats-Component-Frontend-mentor)
+- Solution URL: [Github](https://github.com/Zyruks/Stats-Component-Frontend-mentor)
 - Live Site URL: [Vercel](https://stats-component-frontend-mentor-bsaz95bbg-zyruks.vercel.app/)
 
 ## My process
