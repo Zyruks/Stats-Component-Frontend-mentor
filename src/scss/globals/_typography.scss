@@ -61,14 +61,14 @@ h4 {
   line-height: 1.7;
 
   @include breakpoint(large) {
-    font-size: rem(10);
+    font-size: rem(12);
     text-align: start;
   }
 }
 
 .data-division__title {
   @include breakpoint(large) {
-    font-size: rem(16);
+    font-size: rem(18);
     text-align: start;
   }
 }
@@ -79,7 +79,7 @@ h4 {
   font-family: $secondary-font;
   text-transform: uppercase;
   @include breakpoint(large) {
-    font-size: rem(10);
+    font-size: rem(14);
     text-align: start;
   }
 }

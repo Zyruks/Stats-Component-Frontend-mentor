@@ -14,8 +14,8 @@
 
     align-items: center;
     justify-content: center;
-    max-inline-size: rem(700);
-    block-size: rem(250);
+    max-inline-size: rem(900);
+    max-block-size: rem(350);
   }
 }
 
@@ -23,6 +23,8 @@
   inline-size: 100%;
 
   position: relative;
+
+  overflow: hidden;
 
   animation: key-up-to-down 600ms ease-in-out forwards;
   @include breakpoint(large) {
@@ -33,11 +35,12 @@
 }
 
 .card-img {
-  object-fit: cover;
+  object-fit: fill;
 
+  transform: scale(1.03);
   filter: contrast(70%) brightness(130%);
   inline-size: 100%;
-  block-size: 100%;
+  block-size: 150%;
 }
 
 .filter-color {
@@ -79,7 +82,8 @@
 .card-text__title {
   inline-size: 80%;
 }
-x .card-text__description {
+
+.card-text__description {
   inline-size: 95%;
 
   animation: key-up-to-down 600ms ease-in-out forwards;
