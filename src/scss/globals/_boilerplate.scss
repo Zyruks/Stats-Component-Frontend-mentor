@@ -16,13 +16,26 @@ html {
 }
 
 body {
-  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin: 0;
+  padding: 0;
+
+  background-color: var(--bg-color);
+  inline-size: 100vw;
+  block-size: 100vh;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include breakpoint(large) {
+    block-size: 95vh;
+  }
 }
 
 li {
@@ -30,14 +43,22 @@ li {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--accent-color);
   text-decoration: none;
 
   &:hover {
-    color: var(--secondary-color);
+    color: rgb(92, 92, 92);
   }
 }
 
 .attribution {
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
   margin-block-start: rem(50);
+  inline-size: 100%;
+
+  @include breakpoint(large) {
+    margin: 0;
+    block-size: 5vh;
+  }
 }

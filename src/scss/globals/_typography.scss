@@ -38,6 +38,51 @@ h4 {
 /* ******************* *\
  ? #card typography
 \* ******************* */
+.card-text {
+  inline-size: 80%;
+
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.card-text__title {
+  @include breakpoint(large) {
+    font-size: rem(24);
+    text-align: start;
+  }
+}
+
+.card-text__description {
+  color: var(--stat-heading);
+  line-height: 1.7;
+
+  @include breakpoint(large) {
+    font-size: rem(10);
+    text-align: start;
+  }
+}
+
+.data-division__title {
+  @include breakpoint(large) {
+    font-size: rem(16);
+    text-align: start;
+  }
+}
+
+.data-division__sub-title {
+  color: var(--stat-heading);
+  font-size: rem(14);
+  font-family: $secondary-font;
+  text-transform: uppercase;
+  @include breakpoint(large) {
+    font-size: rem(10);
+    text-align: start;
+  }
+}
 
 /* ******************* *\
  ? #card typography end
